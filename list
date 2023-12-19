@@ -1,0 +1,29 @@
+#basic print
+maklu = [[1,2], 4, [1,2,3]]
+print(maklu)
+
+print(maklu[1])
+print(maklu[2][2])
+
+#modifying elements in list
+list = [1,2,4,7,9]
+
+list[0] = 10
+print(list)
+
+#add elements to a list
+azuu = [1,3,3,7,9]
+
+azuu.append(11)
+print(azuu)
+
+azuu.insert(2, [10])
+print(azuu)
+
+#remove elements from list
+cutu = [1,1,5,7,8]
+del cutu[2]
+print(cutu)
+
+cutu.remove(8) #remove function works according the value, not index
+print(cutu)
