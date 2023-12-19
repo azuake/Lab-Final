@@ -1,0 +1,11 @@
+#tuple data type
+def sample(a,b):
+    return a,b
+result = sample(10,5)
+print(result)
+
+#extra
+def sample(a,b):
+    return [a,b,7]
+result = sample(10,5)
+print(result)
