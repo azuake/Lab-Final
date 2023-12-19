@@ -1,0 +1,14 @@
+#add values in list
+list = []
+for i in range(5):
+    list.append(input("enter the number: "))
+print(list)
+
+#show the values of list serially
+for i in range(5):
+    print(list[i])
+
+#show the values upto len function
+list.append(9)
+for i in range(len(list)):
+    print(list[i])
