@@ -1,0 +1,29 @@
+#finding max value
+list = [1,7,3,9,5]
+n = len(list)
+maxx = list[0]
+for i in range(0,n,1):
+    if(maxx<list[i]):
+        maxx = list[i]
+print(maxx)
+
+#finding min value
+minn = list[0]
+for i in range(0,n,1):
+    if(minn>list[i]):
+        minn = list[i]
+print(minn)
+
+#using function
+def value(maklu):
+    n = len(maklu)
+
+    maxx = maklu[0]
+    for i in range(n):
+        if (maxx<maklu[i]):
+            maxx = maklu[i]
+    return maxx
+
+maklu = [2,1,8,1,5]
+result = value(maklu)
+print(result)
