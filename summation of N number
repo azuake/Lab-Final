@@ -1,0 +1,7 @@
+list = [10,30,45,80,23]
+n = len(list)
+
+sum = 0
+for i in range(n):
+    sum = sum + list[i]
+print(sum)
