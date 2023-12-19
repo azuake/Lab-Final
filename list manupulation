@@ -1,0 +1,4 @@
+list = [1,2,9,4,5]
+n = len(list)
+for i in range(n-1, -1, -1):
+    print(list[i])
